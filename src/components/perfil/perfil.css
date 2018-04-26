@@ -1,0 +1,65 @@
+.box_perfil{
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/346726/pexels-photo-346726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+
+}
+.cover h3{
+    color: white;
+    font-size: 70px;
+}
+
+.flex{
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    height: 500px;
+    flex-grow: 1;
+    margin: 0 20px;
+    border:solid 1px black;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #FF3827;
+    transition: all 1s ease;
+}
+.card:hover{
+    background-color:#61ACFF;   
+}
+
+.hobbies{
+    width: 400px;
+    height: 500px;
+    flex-grow: 2;
+    border: solid 1px black
+}
+.hobbies:hover{
+    box-shadow: 2px 5px #61ACFF;
+}
+
+.photo{
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+    border-radius: 100px;
+    background-color: green;
+    transition: all 1s ease;
+}
+.photo:hover{
+    transform:scale(1.3);
+}
+
+
