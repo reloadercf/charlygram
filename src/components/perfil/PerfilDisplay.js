@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import"./perfil.css"
 import FontAwesome from 'react-fontawesome'
-
+import { Card } from 'antd';
 
 const PerfilDisplay =({displayName, email,photoURL})=>{
     return(
@@ -12,14 +12,15 @@ const PerfilDisplay =({displayName, email,photoURL})=>{
             </div>
         </div>
         <div className="flex">
-            <div className="card">
-                <div className="photo" style={{background}}></div>
-                <p>Nombre: {displayName}</p>
-                <p>Email: {email}</p>
-            </div>
-            <div className="hobbies">
+
+               <Card title={displayName} extra={<a href="#">Editar</a>} style={{ width: 300 }}>
+                    <p><img className="photo" src={photoURL}/></p>
+                    <p>Email: {email}</p>
+                </Card>
+
+            <Card title="Hobiies"  style={{ width: 1000 }}>
                 <h3>Estos son tus hobbies</h3>
-            </div>
+            </Card>
         </div>
       
       

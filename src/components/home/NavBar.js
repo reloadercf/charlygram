@@ -15,7 +15,7 @@ class NavBar extends Component{
     render(){
         return (
              <div className="nav">
-                 <img src="https://img.talkandroid.com/uploads/2015/06/ea_sports_fifa_logo.png" alt="imagen"/>
+                 <img src="https://www.shareicon.net/download/2017/02/15/879058_media_512x512.png" alt="imagen"/>
                     <Link to="/"><span>Home</span></Link>
                 
                     <div style={{display:"flex", alignItems:"center"}}>

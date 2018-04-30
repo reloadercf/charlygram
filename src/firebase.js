@@ -1,12 +1,12 @@
 import * as firebase  from 'firebase';
 
 let config = {
-    apiKey: "AIzaSyBKLE0UGl7jN1ey9OZEXsyYWsQ2hvpdt2U",
-    authDomain: "fixtergram-frontend.firebaseapp.com",
-    databaseURL: "https://fixtergram-frontend.firebaseio.com",
-    projectId: "fixtergram-frontend",
-    storageBucket: "fixtergram-frontend.appspot.com",
-    messagingSenderId: "415609720379"
+    apiKey: "AIzaSyBMf4lkU9vvnqPTq8-omzWkPSyuYYsi34Y",
+    authDomain: "fixterlogin.firebaseapp.com",
+    databaseURL: "https://fixterlogin.firebaseio.com",
+    projectId: "fixterlogin",
+    storageBucket: "fixterlogin.appspot.com",
+    messagingSenderId: "637898066517"
   };
   firebase.initializeApp(config);
 

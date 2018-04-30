@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
 
 .slide{
-    background-image: url("https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("https://img00.deviantart.net/ca44/i/2016/142/4/7/razer_wallpaper__1920_x1080__by_hokori_kara-da3fzx8.png");
     background-position: center;
     background-size:cover;
     width: 100%;
@@ -35,7 +35,7 @@
     align-items: center;
 }
 .nav img{
-    width: 150px;
+    width: 50px;
 }
 
 .nav span{
